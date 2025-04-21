@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'CedarvilleCursive';
-  src: url('./assets/fonts/CedarvilleCursive-Regular.ttf') format('truetype');
+  font-family: 'Tangerine';
+  src: url('./assets/fonts/Tangerine-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Samarkan';
+  src: url('./assets/fonts/samarkan.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -12,8 +20,6 @@
   --color-primary: #fe454f;
   --color-secondary: #43937a;
   --color-tertiary: #f7f3ed;
-
-  fontFamily:{
-    cursive :['CedarvilleCursive', '']
-  }
+  --font-cursive: 'Tangerine', cursive;
+  --font-indic: 'Samarkan', mono;
 }
